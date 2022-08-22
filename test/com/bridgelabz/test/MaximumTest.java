@@ -10,6 +10,11 @@ class MaximumTest {
 
 	@Test
 	public void firstMaxTestValidator() {
-	    	assertEquals(30,Maximum.findMaxInThree(30,20,10));
+	assertEquals(30,Maximum.findMaxInThree(30,20,10));
+	}
+	
+	@Test
+	public void secondtMaxTestValidator() {
+	assertEquals(30,Maximum.findMaxInThree(20,30,10));
 	}
 }
